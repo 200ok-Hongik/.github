@@ -24,6 +24,8 @@
   </p>
 </div>
 
+<br />
+
 
 <!-- 프로젝트 소개 -->
 ## 프로젝트 소개
@@ -45,7 +47,8 @@
 복잡한 분리배출 정보는 한눈에 **쏙**, 올바른 배출 방법은 생활 속에 자연스럽게 **쏙** 스며들 수 있도록 만들어가고 있습니다.
 
 > **프로젝트 기간**: 2026.03 - 현재 진행 중
->
+
+<br />
 
 
 ### 🎯 주요 기능
@@ -60,11 +63,15 @@
 - 분석 결과를 바탕으로 물건에 알맞은 분리배출 방법을 제공합니다.
 - 잘못 분석된 결과는 사용자가 직접 수정할 수 있습니다.
 
+<br />
+
 **지역 맞춤형 분리배출 가이드**
 
 - 품목별 올바른 분리배출 방법과 주의 사항을 제공합니다.
 - 사용자의 거주 지역을 기준으로 지역별 배출 규칙을 안내합니다.
 - 복잡한 배출 정보를 누구나 이해하기 쉽게 정리하여 보여줍니다.
+
+<br />
 
 **분리배출 일정 관리**
 
@@ -72,16 +79,23 @@
 - 등록한 일정의 완료 여부를 간편하게 관리할 수 있습니다.
 - 오늘의 배출 일정을 홈 화면에서 한눈에 확인할 수 있습니다.
 
+<br />
+
 **알림 및 사용자 설정**
 
 - 푸시 알림을 통해 분리배출 일정을 놓치지 않도록 안내합니다.
 - 카카오 로그인을 통해 간편하게 서비스를 이용할 수 있습니다.
 - 거주 지역과 알림 수신 여부 등 개인 설정을 관리할 수 있습니다.
 
+<br />
+
 **사용자 피드백**
 
 - AI 분석 결과에 대한 의견을 남길 수 있습니다.
 - 사용자의 피드백을 바탕으로 더욱 정확한 서비스를 만들어갑니다.
+
+<br />
+<br />
 
 
 ### 😎 함께한 사람들
@@ -94,6 +108,9 @@
 | 최수민 | 홍익대학교 컴퓨터공학과 | `프론트엔드 개발자` | MVP 개발 ~ 현재 | Velog |
 | 정유민 | - | `디자이너` | MVP 개발 ~ 현재 | - |
 | 정용빈 | - | `디자이너` | MVP 개발 ~ 현재 | - |
+
+<br />
+<br />
 
 
 ### 📚 기술 스택
@@ -118,12 +135,12 @@
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-##### Database
+#### **Database**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-##### Infra / CI·CD
+#### **Infra / CI·CD**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -135,6 +152,8 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
+<br />
+<br />
 
 ### 📝 관련 링크
 
@@ -145,14 +164,20 @@
 - [GitHub - Backend](https://github.com/200ok-Hongik/200ok-BE)
 - [GitHub - AI](https://github.com/200ok-Hongik/200ok-AI)
 
+<br />
+<br />
 
 ---
+
+<br />
 
 <div align="center">
 
 ### 헷갈리는 분리배출, 이제 쏙 알아보세요. 🌱
 
-사진 한 장이면 분리배출 방법부터 일정까지 한눈에.  
+사진 한 장이면 분리배출 방법부터 일정까지 한눈에.<br />
 우리의 작은 실천이 더 나은 내일로 이어지도록, **SSOK**과 함께해요. ♻️
 
 </div>
+
+<br />
