@@ -1,6 +1,3 @@
-<!-- Improved compatibility of back to top link -->
-<a id="readme-top"></a>
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -49,8 +46,6 @@
 > **프로젝트 기간**: 2026.03 - 현재 진행 중
 >
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### 🎯 주요 기능
 
@@ -87,8 +82,6 @@
 - AI 분석 결과에 대한 의견을 남길 수 있습니다.
 - 사용자의 피드백을 바탕으로 더욱 정확한 서비스를 만들어갑니다.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### 😎 함께한 사람들
 
@@ -98,8 +91,8 @@
 | 김지현 | 홍익대학교 컴퓨터공학과 | `백엔드 개발자` | MVP 개발 ~ 현재 | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hyeoniss) [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@hyeoniss/posts) |
 | 김혜원 | 홍익대학교 컴퓨터공학과 | `AI 개발자` | MVP 개발 ~ 현재 | Velog |
 | 최수민 | 홍익대학교 컴퓨터공학과 | `프론트엔드 개발자` | MVP 개발 ~ 현재 | Velog |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+| 정유민 | - | `디자이너` | MVP 개발 ~ 현재 | - |
+| 정용빈 | - | `디자이너` | MVP 개발 ~ 현재 | - |
 
 
 ### 📚 기술 스택
@@ -141,8 +134,6 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### 📝 관련 링크
 
@@ -152,8 +143,6 @@
 - [GitHub - Frontend](https://github.com/200ok-Hongik/200ok-FE)
 - [GitHub - Backend](https://github.com/200ok-Hongik/200ok-BE)
 - [GitHub - AI](https://github.com/200ok-Hongik/200ok-AI)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ---
