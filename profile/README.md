@@ -102,7 +102,7 @@
 
 | 이름 | 학교 | 역할 | 참여 기간 | 비고 |
 |:---:|:---:|:---:|:---:|:---:|
-| 유영주 | 홍익대학교 컴퓨터공학과 | `AI 개발자` | MVP 개발 ~ 현재 | GitHub · Blog |
+| 유영주 | 홍익대학교 컴퓨터공학과 | `팀장` `AI 개발자` | MVP 개발 ~ 현재 | GitHub · Blog |
 | 김지현 | 홍익대학교 컴퓨터공학과 | `백엔드 개발자` | MVP 개발 ~ 현재 | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hyeoniss) [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@hyeoniss/posts) |
 | 김혜원 | 홍익대학교 컴퓨터공학과 | `AI 개발자` | MVP 개발 ~ 현재 | Velog |
 | 최수민 | 홍익대학교 컴퓨터공학과 | `프론트엔드 개발자` | MVP 개발 ~ 현재 | Velog |
