@@ -4,7 +4,7 @@
 <div align="center">
   <a href="https://ssok.store">
     <img
-      src="./temp-logo.png"
+      src="https://raw.githubusercontent.com/200ok-Hongik/.github/main/profile/assets/temp-logo.png"
       alt="SSOK Logo"
       width="120"
     />
