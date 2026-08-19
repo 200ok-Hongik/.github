@@ -1,12 +1,14 @@
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
 
-  <!-- 로고가 준비되면 아래 주석을 해제하고 경로를 수정해 주세요.
+<div align="center">
   <a href="https://ssok.store">
-    <img src="./logo.svg" alt="SSOK Logo" width="80" height="80">
+    <img
+      src="./temp-logo.png"
+      alt="SSOK Logo"
+      width="120"
+    />
   </a>
-  -->
 
   <h1 align="center">SSOK</h1>
 
@@ -18,8 +20,7 @@
     <a href="https://ssok.store"><strong>SSOK 서비스 바로가기</strong></a>
     <br />
     <br />
-    🎓 홍익대학교 컴퓨터공학과 졸업 프로젝트<br />
-    📅 2026.03 - 현재 진행 중
+    🎓 홍익대학교 컴퓨터공학과 졸업 프로젝트
   </p>
 </div>
 
