@@ -1,0 +1,73 @@
+<!doctype html>
+<!--
+  팀 README 시스템 구성 그림 → profile/assets/system.png (1200×520, 2배 해상도)
+  - 앱: 200ok-FE (Expo · React Native · TypeScript, 웹은 vercel.json 기준 Vercel)
+  - 백엔드: 200ok-BE infra/ec2/compose.yml (app · mysql · rabbitmq · redis · caddy), S3 업로드, 카카오 OAuth,
+    배포 .github/workflows/deploy-development.yml (GitHub Actions → ECR → EC2)
+  - AI: 200ok-AI (FastAPI · YOLOv8 · OpenAI GPT), .github/workflows/deploy-ai-ec2.yml (GitHub Actions → SSM → EC2)
+-->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="common.css">
+<style>
+  body { width: 1200px; height: 520px; }
+  .card { width: 1200px; height: 520px; padding: 34px 40px; }
+  .head { margin-bottom: 24px; }
+  .row { display: flex; align-items: stretch; gap: 0; }
+  .col { border-radius: 22px; padding: 20px; }
+  .app { width: 230px; background: var(--surface); }
+  .be { width: 450px; background: var(--accent-soft); }
+  .ai { width: 330px; background: var(--mint); border: 2px solid #A7E9BE; }
+  .tag { font-size: 13px; font-weight: 800; color: var(--accent-ink); margin-bottom: 6px; }
+  h3 { font-size: 21px; font-weight: 800; margin-bottom: 4px; letter-spacing: -0.3px; }
+  .sub { font-size: 13.5px; color: var(--sub); margin-bottom: 14px; }
+  .box { background: #fff; border-radius: 14px; padding: 11px 13px; margin-bottom: 9px; }
+  .box b { display: block; font-size: 15px; font-weight: 800; margin-bottom: 2px; }
+  .box span { font-size: 12.8px; color: var(--sub); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+  .two .box { margin-bottom: 0; }
+  .arrow { width: 47px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #9CA3AF; font-size: 11.5px; font-weight: 700; gap: 4px; }
+  .arrow svg { width: 34px; height: 16px; }
+  .ext { display: flex; gap: 10px; margin-top: 16px; }
+  .ext div { flex: 1; border: 1.5px dashed var(--line); border-radius: 14px; padding: 10px 14px; font-size: 13.5px; color: var(--sub); }
+  .ext b { color: var(--text); font-weight: 800; margin-right: 6px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="head"><span class="title">시스템 구성</span><span class="caption">앱 · 백엔드 · AI 서버, 저장소 3개</span></div>
+  <div class="row">
+    <div class="col app">
+      <div class="tag">200ok-FE</div><h3>SSOK 앱</h3><div class="sub">Expo · React Native</div>
+      <div class="box"><b>촬영 · 결과 확인</b><span>틀린 품목 직접 수정</span></div>
+      <div class="box"><b>가이드 · 캘린더</b><span>지역별 배출 일정</span></div>
+      <div class="box"><b>웹 배포</b><span>Vercel · ssok.store</span></div>
+    </div>
+    <div class="arrow"><svg viewBox="0 0 34 16"><path d="M2 8h28M24 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>API</div>
+    <div class="col be">
+      <div class="tag">200ok-BE</div><h3>백엔드</h3><div class="sub">Spring Boot · AWS EC2 (Docker Compose)</div>
+      <div class="two">
+        <div class="box"><b>인증</b><span>카카오 OAuth · JWT</span></div>
+        <div class="box"><b>분석 작업 큐</b><span>RabbitMQ · 상태 조회</span></div>
+        <div class="box"><b>배출 규칙 판정</b><span>품목·상태·지역 기준</span></div>
+        <div class="box"><b>저장</b><span>MySQL · Redis · S3</span></div>
+      </div>
+      <div class="box" style="margin-top:9px"><b>배포</b><span>GitHub Actions → ECR → EC2 · Caddy(https)</span></div>
+    </div>
+    <div class="arrow"><svg viewBox="0 0 34 16"><path d="M2 8h28M24 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>사진</div>
+    <div class="col ai">
+      <div class="tag">200ok-AI</div><h3>AI 서버</h3><div class="sub">FastAPI · AWS EC2</div>
+      <div class="box"><b>YOLOv8 탐지</b><span>물체 위치 · 8품목</span></div>
+      <div class="box"><b>GPT 이미지 판단</b><span>품목 재확인 · 상태 · 놓친 물체</span></div>
+      <div class="box"><b>배포 · 학습</b><span>GitHub Actions → SSM · Colab 학습</span></div>
+    </div>
+  </div>
+  <div class="ext">
+    <div><b>Kakao</b>로그인 OAuth</div>
+    <div><b>AWS S3</b>촬영 이미지 저장</div>
+    <div><b>OpenAI</b>GPT 이미지 판단</div>
+  </div>
+</div>
+</body>
+</html>

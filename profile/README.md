@@ -15,14 +15,21 @@
   <p align="center">
     헷갈리는 분리배출 정보를 사진 한 장으로 쏙!<br />
     AI 이미지 분석과 지역별 배출 정보를 활용한 맞춤형 분리배출 서비스
-    <br />
-    <br />
-    <a href="https://ssok.store"><strong>SSOK 서비스 바로가기</strong></a>
-    <br />
-    <br />
-    🎓 홍익대학교 컴퓨터공학과 졸업 프로젝트
   </p>
+
+  <p align="center">
+    <a href="https://ssok.store"><img src="https://img.shields.io/badge/SSOK_서비스_바로가기-22C55E?style=for-the-badge&logoColor=white" alt="SSOK 서비스 바로가기"></a>
+    <a href="https://github.com/200ok-Hongik/200ok-FE"><img src="https://img.shields.io/badge/Frontend-181717?style=for-the-badge&logo=github&logoColor=white" alt="Frontend"></a>
+    <a href="https://github.com/200ok-Hongik/200ok-BE"><img src="https://img.shields.io/badge/Backend-181717?style=for-the-badge&logo=github&logoColor=white" alt="Backend"></a>
+    <a href="https://github.com/200ok-Hongik/200ok-AI"><img src="https://img.shields.io/badge/AI-181717?style=for-the-badge&logo=github&logoColor=white" alt="AI"></a>
+  </p>
+
+  <p align="center">홍익대학교 컴퓨터공학과 졸업 프로젝트 · 팀 200 OK</p>
 </div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/200ok-Hongik/.github/main/profile/assets/main.jpg" alt="사진 한 장으로 해결하는 AI 분리배출 판정 서비스 SSOK" width="100%" />
+</p>
 
 <br />
 
@@ -30,98 +37,150 @@
 <!-- 프로젝트 소개 -->
 ## 프로젝트 소개
 
-<!-- 대표 이미지가 준비되면 아래 주석을 해제하고 경로를 수정해 주세요.
+**SSOK(쏙)** — 버리려는 물건을 촬영하면 AI가 품목·재질·상태를 분석하고, 거주 지역 기준의 분리배출 방법과 일정을 안내하는 서비스
+
+- **문제**: 지역·품목마다 분리배출 기준이 달라 매번 검색 필요, 라벨·뚜껑·오염 여부에 따라 배출 방법도 달라짐
+- **해결**: 사진 한 장 → 물건별 품목·상태 판정 → 지역 규칙에 맞는 배출 방법 안내 → 배출 일정·기록 관리
+- **기간**: 2026.03 ~ 진행 중
+
 <p align="center">
-  <img
-    src="./docs/images/ssok-main.png"
-    alt="SSOK 서비스 대표 이미지"
-    width="720"
-  />
+  <img src="https://raw.githubusercontent.com/200ok-Hongik/.github/main/profile/assets/scan-photo.jpg" alt="재활용품을 촬영하면 품목·상태·지역 기준을 분석해 올바른 배출 방법을 안내" width="100%" />
 </p>
--->
-
-**SSOK(쏙)**은 사용자가 버리려는 물건을 촬영하면 AI가 품목과 재질을 분석하고, 거주 지역에 맞는 분리배출 방법과 일정을 안내하는 서비스입니다.
-
-지역과 품목마다 다른 분리배출 기준을 매번 검색해야 하는 불편을 줄이고, 누구나 쉽고 정확하게 자원 순환에 참여할 수 있도록 돕습니다.
-
-복잡한 분리배출 정보는 한눈에 **쏙**, 올바른 배출 방법은 생활 속에 자연스럽게 **쏙** 스며들 수 있도록 만들어가고 있습니다.
-
-> **프로젝트 기간**: 2026.03 - 현재 진행 중
 
 <br />
 
 
-### 🎯 주요 기능
+## 주요 기능
 
-<!-- 주요 기능 이미지가 준비되면 아래 주석을 해제하고 경로를 수정해 주세요.
-![SSOK 주요 기능](./docs/images/ssok-info1.png)
--->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/200ok-Hongik/.github/main/profile/assets/features.png" alt="주요 기능: AI 분리배출 분석, 지역 맞춤 가이드, 배출 일정 관리, 알림·설정, 사용자 피드백" width="100%" />
+</p>
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 **AI 기반 분리배출 분석**
 
-- 버리려는 물건의 이미지를 업로드하면 AI가 품목과 재질을 분석합니다.
-- 분석 결과를 바탕으로 물건에 알맞은 분리배출 방법을 제공합니다.
-- 잘못 분석된 결과는 사용자가 직접 수정할 수 있습니다.
+- 이미지 업로드 → 물건별 품목·재질·상태 분석
+- 분석 결과 기준 분리배출 방법 제공
+- 잘못 분석된 결과는 사용자가 직접 수정
 
-<br />
+</td>
+<td width="50%" valign="top">
 
 **지역 맞춤형 분리배출 가이드**
 
-- 품목별 올바른 분리배출 방법과 주의 사항을 제공합니다.
-- 사용자의 거주 지역을 기준으로 지역별 배출 규칙을 안내합니다.
-- 복잡한 배출 정보를 누구나 이해하기 쉽게 정리하여 보여줍니다.
+- 품목별 분리배출 방법·주의 사항
+- 거주 지역 기준 배출 규칙 안내
+- 품목명·연관 단어 검색
 
-<br />
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 **분리배출 일정 관리**
 
-- 분리배출 일정을 캘린더에 등록할 수 있습니다.
-- 등록한 일정의 완료 여부를 간편하게 관리할 수 있습니다.
-- 오늘의 배출 일정을 홈 화면에서 한눈에 확인할 수 있습니다.
+- 캘린더에 배출 일정 등록
+- 일정 완료 여부 관리
+- 오늘의 배출 일정을 홈 화면에 표시
 
-<br />
+</td>
+<td width="50%" valign="top">
 
 **알림 및 사용자 설정**
 
-- 푸시 알림을 통해 분리배출 일정을 놓치지 않도록 안내합니다.
-- 카카오 로그인을 통해 간편하게 서비스를 이용할 수 있습니다.
-- 거주 지역과 알림 수신 여부 등 개인 설정을 관리할 수 있습니다.
+- 배출 일정 푸시 알림
+- 카카오 로그인
+- 거주 지역·알림 수신 여부 설정
 
-<br />
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
 **사용자 피드백**
 
-- AI 분석 결과에 대한 의견을 남길 수 있습니다.
-- 사용자의 피드백을 바탕으로 더욱 정확한 서비스를 만들어갑니다.
+- AI 분석 결과에 대한 의견 등록
+- 사용자 수정·피드백 결과를 분석 정확도 개선에 활용
+
+</td>
+</tr>
+</table>
 
 <br />
+
+
+## 사용 흐름
+
+<table>
+<tr>
+<td width="36%" align="center"><img src="https://raw.githubusercontent.com/200ok-Hongik/.github/main/profile/assets/app-scan.jpg" alt="SSOK 앱 시작 화면: 카메라로 페트병을 비추면 품목을 알려 줌" width="280" /></td>
+<td valign="middle">
+
+1. **로그인 · 지역 설정** — 카카오 로그인, 거주 지역 등록
+2. **촬영** — 버릴 물건 촬영 (한 장에 여러 물건 가능)
+3. **결과 확인 · 수정** — 물건별 품목·상태(라벨·뚜껑·오염 등) 확인, 틀린 항목 수정 후 확정
+4. **배출 방법 안내** — 품목·상태·지역 기준 배출 방법·주의 사항
+5. **기록 · 일정** — 배출 기록, 지역별 배출 일정 (캘린더·홈 화면)
+
+</td>
+</tr>
+</table>
+
 <br />
 
 
-### 😎 함께한 사람들
+## 서비스 흐름
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/200ok-Hongik/.github/main/profile/assets/service-flow.png" alt="서비스 흐름도: 카카오 로그인 → 촬영 → 백엔드가 RabbitMQ 작업 큐로 AI 서버 호출 → YOLO 탐지 → GPT 품목·상태 판단 → 결과 확인·수정·확정 → 배출 안내·기록" width="100%" />
+</p>
+
+- **비동기 분석**: 백엔드가 분석 요청을 작업 큐(RabbitMQ)에 등록 후 jobId 즉시 반환 → 앱은 상태 조회로 결과 수신
+- **AI 분석**: YOLOv8 물체 탐지 → GPT 품목·상태 판단 (1차 저해상도, 애매한 경우만 2차 고해상도)
+- **판정·기록**: 사용자 확정 결과 기준으로 백엔드가 품목·상태·지역별 배출 방법 판정, 결과·기록 저장
+
+<br />
+
+
+## 시스템 구성
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/200ok-Hongik/.github/main/profile/assets/system.png" alt="시스템 구성: SSOK 앱(Expo) → 백엔드(Spring Boot, RabbitMQ, MySQL, Redis, S3) → AI 서버(FastAPI, YOLOv8, GPT)" width="100%" />
+</p>
+
+| 저장소 | 역할 | 주요 기술 |
+|---|---|---|
+| [200ok-FE](https://github.com/200ok-Hongik/200ok-FE) | SSOK 앱 · 웹 | Expo, React Native, TypeScript, Vercel |
+| [200ok-BE](https://github.com/200ok-Hongik/200ok-BE) | 인증, 분석 작업 관리, 배출 규칙 판정, 기록·일정 | Spring Boot, RabbitMQ, MySQL, Redis, AWS S3·EC2 |
+| [200ok-AI](https://github.com/200ok-Hongik/200ok-AI) | 사진 속 재활용품 품목·상태 분석 | FastAPI, YOLOv8, OpenAI GPT, AWS EC2 |
+
+<br />
+
+
+## 팀원
 
 | 이름 | 학교 | 역할 | 참여 기간 | 비고 |
 |:---:|:---:|:---:|:---:|:---:|
 | 유영주 | 홍익대학교 컴퓨터공학과 | `팀장` `AI 개발자` | MVP 개발 ~ 현재 | GitHub · Blog |
 | 김지현 | 홍익대학교 컴퓨터공학과 | `백엔드 개발자` | MVP 개발 ~ 현재 | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hyeoniss) [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@hyeoniss/posts) |
-| 김혜원 | 홍익대학교 컴퓨터공학과 | `AI 개발자` | MVP 개발 ~ 현재 | Velog |
+| 김혜원 | 홍익대학교 컴퓨터공학과 | `AI 개발자` | MVP 개발 ~ 현재 | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/fkoeier) Velog |
 | 최수민 | 홍익대학교 컴퓨터공학과 | `프론트엔드 개발자` | MVP 개발 ~ 현재 | Velog |
 | 정유민 | - | `디자이너` | MVP 개발 ~ 현재 | - |
 | 정용빈 | - | `디자이너` | MVP 개발 ~ 현재 | - |
 
 <br />
-<br />
 
 
-### 📚 기술 스택
-
-<!-- 시스템 아키텍처 이미지가 준비되면 아래 주석을 해제하고 경로를 수정해 주세요.
-![SSOK 시스템 아키텍처](./docs/images/ssok-architecture.png)
--->
+## 기술 스택
 
 #### **Frontend**
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 #### **Backend**
 
@@ -132,11 +191,17 @@
 ![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-3C4043?style=for-the-badge&logo=auth0&logoColor=white)
 ![Kakao Login](https://img.shields.io/badge/Kakao_Login-FFCD00?style=for-the-badge&logo=kakao&logoColor=000000)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
 #### **AI**
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge&logo=ultralytics&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
 #### **Database**
 
@@ -145,9 +210,11 @@
 
 #### **Infra / CI·CD**
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_EC2·S3·ECR-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=for-the-badge&logo=caddy&logoColor=white)
 
 #### **협업 도구**
 
@@ -156,9 +223,9 @@
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
 <br />
-<br />
 
-### 📝 관련 링크
+
+## 관련 링크
 
 #### SSOK 프로젝트 레포지터리
 
@@ -176,10 +243,10 @@
 
 <div align="center">
 
-### 헷갈리는 분리배출, 이제 쏙 알아보세요. 🌱
+### 헷갈리는 분리배출, 이제 쏙 알아보세요.
 
 사진 한 장이면 분리배출 방법부터 일정까지 한눈에.<br />
-우리의 작은 실천이 더 나은 내일로 이어지도록, **SSOK**과 함께해요. ♻️
+우리의 작은 실천이 더 나은 내일로 이어지도록, **SSOK**과 함께해요.
 
 </div>
 
