@@ -1,0 +1,4 @@
+# README 그림 렌더링 임시 폴더 (scripts/render-readme-images.sh)
+profile/assets/src/.build/
+# README 미리보기 (로컬 확인용)
+README_미리보기.html

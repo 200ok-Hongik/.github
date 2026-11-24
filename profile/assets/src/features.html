@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+  팀 README 주요 기능 그림 → profile/assets/features.png (1200×390, 2배 해상도)
+  - 기능 5가지는 기존 README "주요 기능" 목록 그대로 (AI 분석 / 지역 가이드 / 일정 / 알림·설정 / 피드백)
+  - 색: SSOK 앱 테마(200ok-FE src/constants/theme.ts), 품목 칩 색은 CategoryColors
+-->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="common.css">
+<style>
+  body { width: 1200px; height: 390px; }
+  .card { width: 1200px; height: 390px; padding: 36px 40px; }
+  .head { margin-bottom: 26px; }
+  .grid { display: grid; grid-template-columns: 1.35fr 1fr 1fr 1fr 1fr; gap: 14px; height: 262px; }
+  .f { background: var(--surface); border-radius: 22px; padding: 22px 20px; display: flex; flex-direction: column; }
+  .f.main { background: linear-gradient(160deg, var(--accent) 0%, #16A34A 100%); color: #fff; }
+  .icon { width: 52px; height: 52px; border-radius: 16px; background: #fff; color: var(--accent-ink); display: grid; place-items: center; margin-bottom: 16px; }
+  .f.main .icon { background: rgba(255,255,255,.22); color: #fff; }
+  .icon .ico { width: 28px; height: 28px; }
+  h3 { font-size: 21px; font-weight: 800; letter-spacing: -0.4px; margin-bottom: 10px; }
+  p { font-size: 15px; line-height: 24px; color: var(--sub); }
+  .f.main p { color: rgba(255,255,255,.92); }
+  .chips { margin-top: auto; display: flex; flex-wrap: wrap; gap: 6px; }
+  .chips span { font-size: 12.5px; font-weight: 700; padding: 4px 9px; border-radius: 999px; background: #fff; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="head"><span class="title">주요 기능</span><span class="caption">찍고, 확인하고, 제때 버리기까지</span></div>
+  <div class="grid">
+    <div class="f main">
+      <div class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3.2"/></svg></div>
+      <h3>AI 분리배출 분석</h3>
+      <p>사진 속 재활용품을 하나씩 찾아<br>품목과 라벨·뚜껑·오염 상태까지<br>틀리면 직접 고쳐서 확정</p>
+      <div class="chips">
+        <span style="color:#16A34A">페트</span><span style="color:#16A34A">플라스틱</span><span style="color:#B45309">캔</span><span style="color:#0284C7">유리</span>
+        <span style="color:#7C3AED">종이</span><span style="color:#7C3AED">종이팩</span><span style="color:#475569">비닐</span><span style="color:#DB2777">스티로폼</span>
+      </div>
+    </div>
+    <div class="f">
+      <div class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+      <h3>지역 맞춤 가이드</h3>
+      <p>품목별 배출 방법·주의사항<br>사는 지역의 배출 규칙 기준</p>
+    </div>
+    <div class="f">
+      <div class="icon"><svg class="ico" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2.5"/><path d="M4 10h16M9 3v4M15 3v4"/><path d="M9 15l2 2 4-4"/></svg></div>
+      <h3>배출 일정 관리</h3>
+      <p>캘린더에 일정 등록<br>완료 체크, 오늘 일정은<br>홈 화면에서 바로</p>
+    </div>
+    <div class="f">
+      <div class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg></div>
+      <h3>알림 · 설정</h3>
+      <p>배출일 푸시 알림<br>카카오 간편 로그인<br>지역·알림 설정</p>
+    </div>
+    <div class="f">
+      <div class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M5 5h14v10H9l-4 4z"/><path d="M9 10h6"/></svg></div>
+      <h3>사용자 피드백</h3>
+      <p>AI 결과에 의견 남기기<br>고친 결과는 더 정확한<br>서비스를 위한 자료로</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
